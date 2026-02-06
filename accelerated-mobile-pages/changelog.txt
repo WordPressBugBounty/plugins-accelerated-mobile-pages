@@ -1,4 +1,20 @@
 == Changelog ==
+= 1.1.11 (08 January 2026) =
+* Fixed : Authenticated (Contributor+) Stored Cross-Site Scripting via SVG File Upload reported by Andrea Bocchetti (Wordfence)
+
+= 1.1.10 (23 December 2025) =
+* Fixed : CSRF issue for comment submission disclosed by 0N0ise (Wordfence)
+* Fixed : Fixed AMP error for labels #5716
+
+= 1.1.9 (25 November 2025) =
+* Fixed : PHP Fatal error & More Warnings #5713
+* Fixed : Settings are not getting saved #5714
+
+= 1.1.8 (19 November 2025) =
+* Fixed : Function _load_textdomain_just_in_time was called incorrectly #5703
+* Fixed : PHP Notice: Function _load_textdomain_just_in_time was called incorrectly - Version: 1.1.7.1 #5709
+* Fixed : PHP Warning : Trying to access array offset on null #5704
+
 = 1.1.7.1 (27 September 2025) =
 * Fixed : Issue persists in AMP plugin version 1.1.7. #5707
 
@@ -9,6 +25,14 @@
 = 1.1.6.1 (29 July 2025) =
 * Fixed : Settings not saving in version 1.1.6 #5700
 * Fixed : Call to a member function hasAttributes() in Document.php (v1.1.6) #5699
+
+= 1.1.6 (28 July 2025) =
+* Tested: Tested upto WordPress 6.8.2
+* Fixed : Deprecated "Creation of dynamic property" #5688
+* Fixed : PHP 8.2 Deprecated Warnings in DOMDocument and Dynamic Property Creation in AMP . #5692
+* Fixed : Deprecated Warning: FILTER_SANITIZE_STRING used in framework.php line 2862 #5691
+* Fixed : Related post refresh not working #5693
+* Fixed : Fatal Error: Undefined Callback ampforwp_getty_image_compatibility in PHP 8.3 #56967
 
 = 1.1.6 (28 July 2025) =
 * Tested: Tested upto WordPress 6.8.2
